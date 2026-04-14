@@ -31,6 +31,26 @@ This project investigates the effectiveness of hexagonal image representation fo
 DRIVE Dataset:
 https://www.kaggle.com/datasets/andrewmvd/drive-digital-retinal-images-for-vessel-extraction
 
+## Results Visualization
+
+### Original vs Hex Representation
+![Original vs Hex](images/original_hex.png)
+
+### Otsu Segmentation Comparison
+![Otsu Comparison](images/otsu_comparison.png)
+
+### Otsu vs Ground Truth
+![Otsu vs GT](images/otsu_vs_gt.png)
+
+### Region Growing Comparison
+![Region Growing](images/region_growing.png)
+
+### Region Growing Ground Truth
+![RG Ground Truth](images/rg_ground_truth.png)
+
+### Region Growing Overlap
+![RG Overlap](images/rg_overlap.png)
+
 ## Future Work
 - Integration with deep learning models
 - Improved hexagonal interpolation techniques
